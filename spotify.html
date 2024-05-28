@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhrupal-Spotify</title>
+    <link rel="stylesheet" href="cssfiles/spotify.css">
+    <link rel="stylesheet" href="cssfiles/utility.css">
+</head>
+<body>
+    <div class="container flex bg-black">
+
+     <div class="left">
+        <div class="close">
+            <img width="30px width="25"" class="invert" src="svgs/close.svg" alt="">
+        </div>
+        <div class="home bg-grey rounded m-1 p-1">
+         <img class="invert" width="110px" class="logo" src="svgs/logo.svg" alt="">
+            <ul>
+               <li class="myhome"><img class="invert"  src="svgs/home.svg" alt="home">Home</li> 
+               <li><img class="invert" src="svgs/search.svg" alt="search">Search</li> 
+            </ul>
+        </div>
+
+        <div class="library bg-grey rounded m-1 p-1">
+            <div class="heading">
+            <img class="invert" src="svgs/libraryicon.svg" alt="">
+            <h2>your library</h2>  
+            </div>
+            <div class="songlist">
+                <ul></ul>
+            </div>
+            <div class="footer">
+                <div><a href="https://www.spotify.com/jp/legal/"<span>legal</span>       </a></div>
+                <!-- <div><a href="https://www.spotify.com/jp/privacy/"<span>privacy center     </span></a></div> -->
+                <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"<span>cookies</span></a></div>
+                <div><a href="https://www.spotify.com/jp/legal/cookies-policy/" <span>About Ads</span></a></div>
+                <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3" <span>accessibility</span></a></div>
+            </div>
+            
+        </div>
+
+     </div>
+
+     <div class="right  bg-grey rounded" >
+        <div class="header">
+            <div class="nav">
+                <img class="invert hamburger" src="svgs/hamburger.svg" alt="">
+                <img src="svgs/arrowleft.svg" alt="">
+                <img src="svgs/arrowright.svg" alt="">  
+            </div>
+                <div class="buttons">
+                     <button class="signup-btn">sign up</button>
+                     <button class="login-btn">log in</button>
+                </div>
+        </div>
+        <div class="spotify-playlist">
+            <h1>Dhrupal-SpotifyPlaylist</h1>
+            <div class="cardcontainer">
+            <!-- in javascript -->
+            </div>
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+                <div class="abovebar">
+                    <div class="songinfo">
+
+                    </div>
+                    <div class="songbuttob">
+                        <img width="25" id="previous" src="svgs/prevsong.svg" alt="">
+                        <img width="25" id="play" src="svgs/playbar.svg" alt="">
+                        <img width="25" id="next" src="svgs/nextsong.svg" alt="">
+                    </div>
+                    <div class="timevol">
+                        <div class="songtime">
+                    
+                        </div>
+                        <div class="volume">
+                            <img width="25px" src="svgs/volume.svg" alt="">
+                            <div class="range">
+                                <input type="range" name="volume" id="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+     </div>
+    
+    <script src="javascriptfile/spotify.js"></script>
+</body>
+</html>
